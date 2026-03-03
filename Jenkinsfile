@@ -14,7 +14,7 @@ pipeline {
                 echo '运行测试...'
                 // 模拟测试执行和覆盖率统计
                 sh 'echo "Tests run: 10, Failures: 0" > test-result.txt'
-                sh 'echo "Coverage: 75%" > coverage.txt'  // 先演示失败场景
+                sh 'echo "Coverage: 85%" > coverage.txt'  // 先演示失败场景
             }
         }
         
